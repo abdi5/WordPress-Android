@@ -71,8 +71,11 @@ class ModalLayoutPickerViewModelTest {
             val aboutLayout = GutenbergLayout(
                     slug = "about",
                     title = "About",
+                    previewTablet = "https://headstartdata.files.wordpress.com/2020/01/about-2.png",
+                    previewMobile = "https://headstartdata.files.wordpress.com/2020/01/about-2.png",
                     preview = "https://headstartdata.files.wordpress.com/2020/01/about-2.png",
                     content = "",
+                    demoUrl = "",
                     categories = listOf(aboutCategory)
             )
             return OnBlockLayoutsFetched(listOf(aboutLayout), listOf(aboutCategory), null)
